@@ -19,9 +19,11 @@ Each write-up follows a consistent SOC-ready structure:
 ### 1) Phishing / Suspicious OAuth Application
 Simulated identity-based alert involving suspicious OAuth app consent and anomalous login patterns.
 
-### 2) Suspicious PowerShell Execution (Endpoint)
-Simulated endpoint alert involving encoded PowerShell execution and potential post-exploitation activity.
+### 2) Suspicious Lateral Movement in Windows Domain
+Investigated a burst of cross-server authentications from a non-admin workstation, confirmed SMB ADMIN$ access and remote service creation consistent with lateral movement, and documented containment steps plus detection tuning opportunities.
 
 ---
 
 These write-ups demonstrate how I structure investigations, communicate findings, and provide actionable remediation guidance.
+
+A reusable investigation template is included in this repository.
