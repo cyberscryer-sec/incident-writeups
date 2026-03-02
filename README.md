@@ -16,10 +16,10 @@ Each write-up follows a consistent SOC-ready structure:
 
 ## Case Studies
 
-### 1) Phishing / Suspicious OAuth Application
+### 1) [Suspicious Encoded Powershell Execution](./powershell-encoded-command-investigation.md)
 Simulated identity-based alert involving suspicious OAuth app consent and anomalous login patterns.
 
-### 2) Suspicious Lateral Movement in Windows Domain
+### 2) [Suspicious Lateral Movement in Windows Domain](./lateral-mvmt-domain-investigation.md)
 Investigated a burst of cross-server authentications from a non-admin workstation, confirmed SMB ADMIN$ access and remote service creation consistent with lateral movement, and documented containment steps plus detection tuning opportunities.
 
 ---
