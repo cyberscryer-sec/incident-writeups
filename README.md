@@ -26,4 +26,4 @@ Investigated a burst of cross-server authentications from a non-admin workstatio
 
 These write-ups demonstrate how I structure investigations, communicate findings, and provide actionable remediation guidance.
 
-A reusable investigation template is included in this repository: : ./incident-summary-template.md
+A reusable [investigation template](./incident-summary-template.md) is included in this repository.
